@@ -1,0 +1,16 @@
+#chart{
+  background-color: #222529 ;
+  color: white;
+  opacity: .9;
+}
+#accordion{
+  position: 'center';
+}
+#currentPrice{
+  background-color: #304447;
+  opacity: .95;
+}
+
+#collapseOne{
+  opacity: .9;
+}

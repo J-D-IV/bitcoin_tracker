@@ -1,0 +1,42 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack -d",
+    "db": "json-server --watch data/db.json",
+    "start": "nodemon server/index.js",
+    "prod": "node server/index.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.3",
+    "axios": "^0.21.1",
+    "body-parser": "^1.17.2",
+    "chart.js": "^2.9.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.15.0",
+    "express-handlebars": "^5.2.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "lowdb": "^1.0.0",
+    "mongoose": "^4.8.6",
+    "mysql": "^2.13.0",
+    "newrelic": "^7.1.1",
+    "react": "^15.7.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-datepicker": "^3.5.0",
+    "react-dom": "^15.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
